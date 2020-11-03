@@ -6,7 +6,7 @@ namespace JsonResponse
     public class TelegramB
     {
         public bool Ok { get; set; }
-        public List<Result> Result { get; set; }
+        public Result[] Result { get; set; }
     }
     public class Result
     {
